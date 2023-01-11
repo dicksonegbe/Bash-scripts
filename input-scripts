@@ -1,0 +1,22 @@
+#!/bin/bash
+# Author: Dickson Esakenong
+# Date: 11/02/22
+# Description: This is input output file
+# Date Modified: 11/02/22
+#
+a=`hostname`
+echo Hello, my server name is $a
+echo
+echo What is your name?
+read b
+echo
+echo what is your profession
+read c
+echo
+echo What is your favorite show
+read d
+echo
+echo Hello $b
+echo Your profession $c is awsome
+echo $d is a good show
+echo

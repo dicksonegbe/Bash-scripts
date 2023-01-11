@@ -1,0 +1,8 @@
+#!/bin/bash
+# This script will ouput Dickson with different actions
+
+for i in eat run jump play
+do
+echo See Dickson $i
+done
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+ls -l /home/sysadmin/check
+
+if [$? -eq 0]
+then 
+echo file exist
+else
+echo file does nat exits
+fi
